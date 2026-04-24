@@ -1,0 +1,94 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>Simple web app</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+<!-- Navbar -->
+<nav class="navbar navbar-expand-lg navbar-dark bg-black">
+  <div class="container">
+    <a class="navbar-brand fw-bold" href="#">LUIGI</a>
+    <button class="navbar-toggler" data-bs-toggle="collapse" data-bs-target="#nav">
+      <span class="navbar-toggler-icon"></span>
+    </button>
+    <div id="nav" class="collapse navbar-collapse">
+      <ul class="navbar-nav ms-auto">
+        <li class="nav-item"><a class="nav-link" href="#">Shop</a></li>
+        <li class="nav-item"><a class="nav-link" href="about.html">About</a></li>
+        <li class="nav-item"><a class="nav-link" href="contact.html">Contact</a></li>
+        <li class="nav-item"><a class="nav-link" href="dashboard.html">Dashboard</a></li>
+      </ul>
+    </div>
+  </div>
+</nav>
+
+<!-- Hero -->
+<section class="hero text-center">
+  <div class="container">
+    <h1 class="fw-bold">Simple. Fashioned. Stylish.</h1>
+    <p class="text-muted">Premium streetwear by LUIGI — Delivered worldwide 🌍</p>
+  </div>
+</section>
+
+<!-- Categories -->
+<div class="container my-5">
+  <h3 class="mb-4">Shop Categories</h3>
+  <div class="row g-4">
+
+    <!-- Card -->
+    <div class="col-md-3 col-sm-6">
+      <div class="card product-card">
+        <img src="https://via.placeholder.com/300x300" class="card-img-top">
+        <div class="card-body">
+          <h6>Classic Top</h6>
+          <p class="text-muted">₦25,000</p>
+        </div>
+      </div>
+    </div>
+
+    <div class="col-md-3 col-sm-6">
+      <div class="card product-card">
+        <img src="https://via.placeholder.com/300x300">
+        <div class="card-body">
+          <h6>Sweat Shirt</h6>
+          <p class="text-muted">₦35,000</p>
+        </div>
+      </div>
+    </div>
+
+    <div class="col-md-3 col-sm-6">
+      <div class="card product-card">
+        <img src="https://via.placeholder.com/300x300">
+        <div class="card-body">
+          <h6>Vintage Wear</h6>
+          <p class="text-muted">₦45,000</p>
+        </div>
+      </div>
+    </div>
+
+    <div class="col-md-3 col-sm-6">
+      <div class="card product-card">
+        <img src="https://via.placeholder.com/300x300">
+        <div class="card-body">
+          <h6>Joggers</h6>
+          <p class="text-muted">₦30,000</p>
+        </div>
+      </div>
+    </div>
+
+  </div>
+</div>
+
+<!-- Footer -->
+<footer class="bg-light text-center p-3">
+  <p class="mb-0">© 2026 LUIGI — Worldwide Delivery Available</p>
+</footer>
+
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js"></script>
+<script src="script.js"></script>
+</body>
+</html>
